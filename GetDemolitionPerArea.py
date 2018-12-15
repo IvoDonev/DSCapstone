@@ -4,7 +4,7 @@ import pandas as pd
 client = MongoClient()
 db = client['Capstone']
 
-res = db["Crime"].aggregate([
+res = db["Demolition"].aggregate([
 {
 	"$group": 
 	{
@@ -39,4 +39,4 @@ res = db["Crime"].aggregate([
 ])
 
 df =  pd.DataFrame(list(res))
-df.to_csv("data/CrimePerArea.csv")
+df.to_csv("data/DemolitionPerArea.csv")
