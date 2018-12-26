@@ -13,12 +13,12 @@ res = db["Crime"].aggregate([
 			"$sum" : 1 
 		}
 	}
-},
+}
 {
 	"$lookup": {
 		"from":"Areas",
 		"localField":"_id",
-		"foreignField":"properties.nhood_num",
+		"foreignField":"properties.target_fid",
 		"as": "area"
 	}
 },
