@@ -1,0 +1,10 @@
+Tidy up code
+Commit to github
+
+Writeup
+
+	Overview
+	Methodology
+	Results
+	Conclusion
+

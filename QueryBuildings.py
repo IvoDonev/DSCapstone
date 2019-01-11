@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 import csv
-import pandas as pd 
+import pandas as pd
 import math
 
 client = MongoClient()
@@ -70,6 +70,21 @@ def GetBuilding(lat, lon, address = None):
 	else:
 		return results['properties']['parcelnum']
 
+import functools
+
+@functools.lru_cache(maxsize=500)
+def GetNHoodName(nhood_id):
+	res = neighborhoods.find_one({"properties.target_fid": str(nhood_id)})
+	if res is None:
+		return "None"
+	return res["properties"]["new_nhood"]
+
+
+def GetLatLon(parcelNum):
+	res = parcels.find_one({"properties.parcelnum": str(parcelNum)})
+	if res is None:
+		return pd.Series((0,0))
+	return pd.Series((res["lat"], res["lon"]))
 
 # df = pd.read_csv("data/detroit-crime.csv", quotechar='"', low_memory=False)
 # for index, row in df.iterrows():

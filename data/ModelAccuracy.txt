@@ -1,0 +1,3 @@
+Model
+Mean validation score: 0.774 (std: 0.010)
+Parameters: {'min_samples_split': 10, 'max_features': 5, 'max_depth': 6, 'bootstrap': False, 'criterion': 'gini'}

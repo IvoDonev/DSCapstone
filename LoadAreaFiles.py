@@ -20,7 +20,7 @@ def ExceptionHandler(bwe):
 client = MongoClient()
 db = client["Capstone"]
 
-# Start with the city boundary 
+# Start with the city boundary
 print("Inserting City Boundary")
 
 inputfile = "data/City of Detroit Boundary.geojson"
@@ -49,7 +49,7 @@ print("Inserting City Areas")
 # Start with the city neighborhoods
 inputfile = "data/Detroit Neighborhoods.geojson"
 areas = db["Areas"]
-areas.drop()  # clear out first
+areas.drop() # clear out first
 
 with open(inputfile,'r') as f:
 	geojson = json.loads(f.read())
@@ -77,7 +77,7 @@ print("Inserting City Parcel Info")
 # Start with the city neighborhoods
 inputfile = "data/Parcel Map.geojson"
 parcels = db["Parcels"] # clear out first
-parcels.drop() 
+parcels.drop()
 
 with open(inputfile,'r') as f:
 	geojson = json.loads(f.read())

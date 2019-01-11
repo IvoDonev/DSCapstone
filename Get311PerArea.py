@@ -1,16 +1,16 @@
 from pymongo import MongoClient
-import pandas as pd 
+import pandas as pd
 
 client = MongoClient()
 db = client['Capstone']
 
 res = db["ThreeOneOne"].aggregate([
 {
-	"$group": 
+	"$group":
 	{
 		"_id": "$nhood_id",
 		"count":{
-			"$sum" : 1 
+			"$sum" : 1
 		}
 	}
 },

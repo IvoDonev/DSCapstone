@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-import pandas as pd 
+import pandas as pd
 
 client = MongoClient()
 db = client['Capstone']
@@ -12,19 +12,19 @@ res = db["Parcels"].aggregate([
 	}
 },
 {
-	"$group": 
+	"$group":
 	{
 		"_id": "$nhood_id",
 		"count":{
-			"$sum" : 1 
+			"$sum" : 1
 		}
 	}
 }])
 
-df =  pd.DataFrame(list(res))
+df = pd.DataFrame(list(res))
 df.to_csv("data/DemolitionPerArea.csv")
 
-# Get coordinates of 
+# Get coordinates of
 res = db["Parcels"].aggregate([
 {
 	"$match":
@@ -33,7 +33,7 @@ res = db["Parcels"].aggregate([
 	}
 }
 ])
-df =  pd.DataFrame(list(res))
+df = pd.DataFrame(list(res))
 dfBuildings = pd.DataFrame()
 dfBuildings['lat'] = df[['lat']]
 dfBuildings['lon'] = df[['lon']]

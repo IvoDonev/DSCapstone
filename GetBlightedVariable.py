@@ -1,5 +1,5 @@
 from pymongo import MongoClient, InsertOne, DeleteMany, ReplaceOne, UpdateOne
-import pandas as pd 
+import pandas as pd
 
 client = MongoClient()
 db = client['Capstone']
@@ -8,14 +8,14 @@ parcels = db["Parcels"]
 
 res = demolition.aggregate([
 {
-	"$group": 
+	"$group":
 	{
 		"_id": "$parcel_id",
 		"count": { "$sum" : 1 }
 	}
 },
 {
-	"$lookup": 
+	"$lookup":
 	{
 		"from":"Parcels",
 		"localField":"_id",
@@ -24,7 +24,7 @@ res = demolition.aggregate([
 	}
 },
 {
-	"$match": {	"parcel": {"$ne": [] } }
+	"$match": {"parcel": {"$ne": [] } }
 },
 {
    "$unwind": "$parcel"
@@ -34,15 +34,15 @@ res = demolition.aggregate([
 }
 ])
 
-df =  pd.DataFrame(list(res))
+df = pd.DataFrame(list(res))
 # df.to_csv("data/BlightedBuildings.csv")
 
 # Add a field for each parcel document to indicate whether its blighted or not. 
 # Here we initialize them all with 0
 parcels.update(
-  {},
-  {"$set": {"blighted": 0}},
-  multi= True
+	{},
+	{"$set": {"blighted": 0}},
+	multi= True
 )
 
 
