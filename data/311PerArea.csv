@@ -1,0 +1,208 @@
+,_id,count,name
+0,158,1,Pride Area Community
+1,58,10,Five Points
+2,78,11,Greenfield
+3,78,11,San Bernardo
+4,78,11,Seven Mile Lodge
+5,135,18,Northeast Central District
+6,76,15,Greektown
+7,38,9,Davison-Schoolcraft
+8,23,16,Castle Rouge
+9,114,5,Melvern Hill
+10,180,10,The Eye
+11,20,2,Cadillac Heights
+12,164,81,Rosedale Park
+13,122,32,Mohican Regent
+14,31,15,Conner Creek Industrial
+15,98,24,Jeffries
+16,123,19,Morningside
+17,28,29,College Park
+18,91,9,Hubbell-Lyndon
+19,91,9,Bethune Community
+20,173,30,Sherwood Forest
+21,198,27,Wildemere Park
+22,175,10,Southfield Plymouth
+23,72,14,Gratiot-Findlay
+24,136,6,Northwest Community
+25,37,77,Davison
+26,139,58,Oak Grove
+27,125,11,Mount Olivet
+28,144,36,Outer Drive-Hayes
+29,129,30,Nolan
+30,15,57,Brightmoor
+31,110,54,Martin Park
+32,10,61,Blackstone Park
+33,101,32,Joy-Schaefer
+34,188,24,Waterworks Park
+35,86,43,Henry Ford
+36,97,42,Jefferson Chalmers
+37,53,61,Evergreen-Outer Drive
+38,66,40,Gold Coast
+39,83,54,Happy Homes
+40,73,180,Gratiot-Grand
+41,25,48,Chandler Park
+42,13,23,Douglass
+43,89,59,Hubbard Farms
+44,165,33,Rouge Park
+45,90,1,Hubbard Richard
+46,146,38,Palmer Woods
+47,46,14,East Village
+48,116,110,Michigan-Martin
+49,148,106,Garden Homes
+50,148,106,McDowell
+51,148,106,Pembroke
+52,148,106,Oak Grove
+53,93,95,McDougall-Hunt
+54,159,109,Pulaski
+55,178,190,State Fair
+56,44,50,Downtown
+57,92,53,Hubbell-Puritan
+58,74,27,Gratiot Town/Ketterring
+59,171,16,Seven Mile-Rouge
+60,27,46,Claytown
+61,26,53,Chandler Park-Chalmers
+62,181,50,Tri-Point
+63,169,90,Schoolcraft Southfield
+64,99,85,Joseph Berry Sub
+65,183,124,Virginia Park
+66,105,42,LaSalle Gardens
+67,170,28,Schulze
+68,160,55,Ravendale
+69,141,63,Oakwood Heights
+70,155,80,Plymouth-Hubbell
+71,3,172,Aviation Sub
+72,6,307,Belle Isle
+73,131,40,North Corktown
+74,143,112,Old Redford
+75,32,85,Core City
+76,68,45,Grand River-St Marys
+77,124,29,Moross-Morang
+78,9,68,Berg-Lahser
+79,39,16,Delray
+80,120,37,Milwaukee Junction
+81,21,165,Campau/Banglatown
+82,81,291,Greenwich
+83,151,5,Petoskey-Otsego
+84,79,48,Greenfield Park
+85,12,49,Boynton
+86,69,45,Grandmont
+87,45,38,East English Village
+88,179,68,Tech Town
+89,189,99,Wayne State
+90,56,10,Fiskhorn
+91,145,119,Palmer Park
+92,5,281,Barton-McFarland
+93,140,241,Oakman Blvd Community
+94,82,6,Grixdale Farms
+95,60,37,Riverbend
+96,60,37,Fox Creek
+97,67,20,Grand River-I96
+98,7,166,Belmont
+99,33,360,Corktown
+100,88,64,Historic Atkinson
+101,75,120,West End
+102,75,120,Gratiot Woods
+103,75,120,East Canfield
+104,185,78,Wade
+105,96,59,Jamison
+106,128,53,New Center Commons
+107,36,278,Cultural Center
+108,194,96,West Village
+109,106,63,Littlefield Community
+110,50,167,Eliza Howell
+111,152,151,Piety Hill
+112,199,24,Winship
+113,102,7,Krainz Woods
+114,112,27,Medbury Park
+115,126,42,Nardin Park
+116,150,67,Pershing
+117,17,21,Buffalo Charles
+118,49,142,Elijah McCoy
+119,11,60,Boston Edison
+120,104,30,LaSalle College Park
+121,100,129,Joy Community
+122,84,54,Chalfonte
+123,84,54,Harmony Village
+124,192,59,West Outer Drive
+125,118,98,Midwest
+126,166,83,Russell Industrial
+127,103,106,Lafayette Park
+128,63,48,Franklin Park
+129,95,78,Islandview
+130,138,476,NW Goldberg
+131,147,313,Paveway
+132,109,276,Marina District
+133,4,178,Bagley
+134,16,117,Brush Park
+135,163,69,Rivertown
+136,30,128,Conner Creek
+137,8,93,Holcomb Community
+138,193,97,West Side Industrial
+139,55,211,Farwell
+140,80,119,Greenfield-Grand River
+141,200,36,Woodbridge
+142,51,217,Elmwood Park
+143,64,106,Garden View
+144,52,102,Evergreen Lahser 7/8
+145,77,53,Green Acres
+146,186,46,Warren Ave Community
+147,42,221,Dexter-Fenkell
+148,18,41,Butler
+149,40,28,Denby
+150,174,31,South of Six
+151,201,38,Yorkshire Woods
+152,113,87,Medical Center
+153,161,60,Regent Park
+154,108,104,Mapleridge
+155,177,140,Springwells
+156,153,54,Pilgrim Village
+157,195,237,West Virginia Park
+158,94,286,Indian Village
+159,184,73,Von Steuben
+160,41,93,Detroit Golf
+161,167,223,Russell Woods
+162,22,677,Carbon Works
+163,2,72,Arden Park
+164,191,111,Weatherby
+165,35,327,Crary/St Marys
+166,134,57,North Rosedale Park
+167,157,56,Poletown East
+168,65,90,Gateway Community
+169,190,63,We Care Community
+170,121,142,Minock Park
+171,130,315,North Campau
+172,48,203,Eden Gardens
+173,117,92,Midtown
+174,62,84,Franklin
+175,182,181,University District
+176,14,70,Brewster Homes
+177,71,39,Grant
+178,34,97,Cornerstone Village
+179,85,7,Hawthorne Park
+180,1,190,Airport Sub
+181,115,136,Mexicantown
+182,43,154,Dexter-Linwood
+183,168,226,Schaefer 7/8 Lodge
+184,47,333,Eastern Market
+185,154,32,Pingree Park
+186,156,28,Plymouth-I96
+187,59,66,Forest Park
+188,142,27,O'Hair Park
+189,197,53,Westwood Park
+190,57,144,Fitzgerald/Marygrove
+191,87,110,North LaSalle
+192,87,110,Herman Kiefer
+193,132,32,North End
+194,187,204,Warrendale
+195,29,123,Conant Gardens
+196,19,608,Cadillac Community
+197,149,248,Penrose
+198,162,190,Riverdale
+199,162,190,Miller Grove
+200,70,84,Grandmont #1
+201,172,44,Sherwood
+202,24,15,Chadsey Condon
+203,176,137,Central Southwest
+204,137,29,Nortown
+205,127,40,New Center
+206,119,83,McNichols Evergreen
